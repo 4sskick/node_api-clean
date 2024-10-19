@@ -1,0 +1,1 @@
+Use Cases Layer: Contains the application's use cases or business rules.

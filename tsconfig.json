@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Target ES2020 for better compatibility
+    "module": "commonjs", // Use CommonJS modules for compatibility with most Node.js modules
+    "outDir": "./dist", // Specify the output directory for compiled JavaScript files
+    "rootDir": "./src", // Specify the root directory of your TypeScript source
+
+    "removeComments": true, // Remove comments from the compiled JavaScript
+    "preserveConstEnums": true, // Preserve const enums for potential optimizations
+    "sourceMap": true, // Generate source maps for easier debugging
+    "declaration": true, // Generate TypeScript declaration files (.d.ts)
+    "strict": true, // Enable strict type checking for better code quality
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES modules
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing for file
+
+    "skipLibCheck": true, // Skip type checking for library files
+    "noImplicitAny": true, // Prevent implicit any type inference
+    "noUnusedLocals": true, // Warn about unused local variables
+    "noUnusedParameters": true, // Warn about unused parameters
+    "noImplicitReturns": true, // Warn about functions that might not return a value
+    "noFallthroughCasesInSwitch": true, // Warn about fallthrough cases in switch statements
+    "experimentalDecorators": false
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

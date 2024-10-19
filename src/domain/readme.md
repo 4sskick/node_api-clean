@@ -1,0 +1,1 @@
+Domain Layer: Contains the business logic, entities, and interfaces. This layer is independent of any other layers.

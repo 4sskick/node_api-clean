@@ -1,0 +1,1 @@
+Infrastructure Layer: Contains implementations of the interfaces defined in the domain layer, such as database connections.

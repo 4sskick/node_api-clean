@@ -1,0 +1,1 @@
+Interface Layer: Contains controllers, routes, and any other web framework-related code.
