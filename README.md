@@ -11,8 +11,10 @@ src/
 │   ├── database/
 │   └── repositories/
 └── interface/
-├── controllers/
-└── routes/
+    |__ controllers/
+    |__ dto
+    |__ middleware
+    |__ routes
 ```
 ### Layer Breakdown
 
