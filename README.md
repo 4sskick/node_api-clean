@@ -38,6 +38,7 @@ src/
 
 | **Development:** | **Production:** |
 |---|---|
+| 0. set env to use Node version `20.12.2`  | 0. use nvm for easy change version of Node |
 | 1. Open a terminal or command prompt. | 1. Open a terminal or command prompt. |
 | 2. Navigate to the project directory. | 2. Navigate to the project directory. |
 | 3. Run the following command: | 3. Run the following command: |
